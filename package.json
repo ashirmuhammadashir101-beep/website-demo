@@ -1,0 +1,18 @@
+{
+  "name": "ama-scheme-legal-contest",
+  "version": "0.1.0",
+  "description": "Legal paid quiz/contest platform backend with basic frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "init-db": "node scripts/init_db.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.0.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.1.0",
+    "morgan": "^1.10.0"
+  }
+}
